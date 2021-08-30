@@ -1,6 +1,6 @@
 {
     "name": "@softvisio/node",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "private": true,
     "description": "Nodejs docker image",
     "homepage": "https://softvisio.github.io/node/",
