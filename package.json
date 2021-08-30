@@ -1,0 +1,18 @@
+{
+    "name": "@softvisio/node",
+    "version": "0.0.0",
+    "private": true,
+    "description": "Nodejs docker image",
+    "homepage": "https://softvisio.github.io/node/",
+    "bugs": {
+        "url": "https://github.com/softvisio/node/issues",
+        "email": "zdm@softvisio.net"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/softvisio/node.git"
+    },
+    "license": "ISC",
+    "author": "zdm <zdm@softvisio.net>",
+    "type": "module"
+}
