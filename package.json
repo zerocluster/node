@@ -1,8 +1,12 @@
 {
-    "name": "@softvisio/node",
+    "name": "node",
     "version": "0.1.0",
     "private": true,
     "description": "Nodejs docker image",
+    "keywords": [
+        "nodejs",
+        "docker"
+    ],
     "homepage": "https://softvisio.github.io/node/",
     "bugs": {
         "url": "https://github.com/softvisio/node/issues",
