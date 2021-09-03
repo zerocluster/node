@@ -39,7 +39,7 @@ RUN \
     # make global node modules loadable
     && mkdir -p ~/.npm/lib \
     && rm -rf ~/.node_modules \
-    && ln -s ~/.npm/lib/node_modules ~/.node_modules
+    && ln -s ~/.npm/lib/node_modules ~/.node_modules \
     \
     # cleanup node build environment
     && curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh | /bin/bash -s -- cleanup
