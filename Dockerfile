@@ -24,9 +24,6 @@ RUN \
     # setup host
     source <( curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh ) \
     \
-    # setup node build environment
-    # && curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh | /bin/bash -s -- setup \
-    \
     # install latest node
     && n latest \
     && n rm latest \
@@ -43,10 +40,8 @@ RUN \
     && mkdir -p ~/.npm/lib \
     && rm -rf ~/.node_modules \
     && ln -s ~/.npm/lib/node_modules ~/.node_modules
-    # \
-    # && curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/setup-node.sh | /bin/bash \
-    # \
+    \
     # cleanup node build environment
-    # && curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh | /bin/bash -s -- cleanup
+    && curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh | /bin/bash -s -- cleanup
 
 ENTRYPOINT [ "/bin/bash", "-l" ]
