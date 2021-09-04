@@ -2,7 +2,8 @@ FROM centos:latest
 
 USER root
 
-ENV TZ=UTC
+ENV TZ=UTC \
+    PATH=$PATH:/root/.npm/bin:/usr/n/bin
 
 WORKDIR /var/local
 
@@ -31,10 +32,10 @@ RUN \
     && rm -rf /var/cache/dnf \
     \
     # setup node
-    && npm config set prefix ~/.npm \
-    && npm config set cache ~/.npm-cache \
-    && npm config set engine-strict true \
-    && npm config set fund false \
+    && npm config --location=global set prefix /root/.npm \
+    && npm config --location=global set cache /root/.npm-cache \
+    && npm config --location=global set engine-strict true \
+    && npm config --location=global set fund false \
     \
     # make global node modules loadable
     && mkdir -p ~/.npm/lib \
