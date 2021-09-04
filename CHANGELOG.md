@@ -1,5 +1,11 @@
 # Changelog
 
+### 0.1.4 (2021-09-04)
+
+Fixes:
+
+-   fix: store settings in the global npm config
+
 ### 0.1.3 (2021-09-03)
 
 Fixes:
