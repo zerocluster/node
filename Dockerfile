@@ -28,8 +28,6 @@ RUN \
     # install latest node
     && n latest \
     && n rm latest \
-    && dnf clean all \
-    && rm -rf /var/cache/dnf \
     \
     # setup node
     && npm config --location=global set prefix /root/.npm \
