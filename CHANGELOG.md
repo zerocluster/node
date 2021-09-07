@@ -1,5 +1,11 @@
 # Changelog
 
+### 0.1.6 (2021-09-07)
+
+Fixes:
+
+-   fix: docker autobuild tags
+
 ### 0.1.5 (2021-09-04)
 
 Fixes:
