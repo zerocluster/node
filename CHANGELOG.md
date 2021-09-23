@@ -1,5 +1,17 @@
 # Changelog
 
+### 1.0.0 (2021-09-23)
+
+Breaking changes:
+
+-   docs!: init
+
+Fixes:
+
+-   fix: package description
+
+Migration:
+
 ### 0.1.8 (2021-09-12)
 
 Fixes:
