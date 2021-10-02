@@ -1,20 +1,21 @@
 {
-    "name": "node",
+    "name": "@zerocluster/node",
     "version": "1.0.1",
     "private": true,
     "description": "NodeJS docker image",
     "keywords": [
+        "zerocluster",
         "nodejs",
         "docker"
     ],
-    "homepage": "https://softvisio.github.io/node/",
+    "homepage": "https://zerocluster.github.io/node/",
     "bugs": {
-        "url": "https://github.com/softvisio/node/issues",
+        "url": "https://github.com/zerocluster/node/issues",
         "email": "zdm@softvisio.net"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/softvisio/node.git"
+        "url": "https://github.com/zerocluster/node.git"
     },
     "license": "ISC",
     "author": "zdm <zdm@softvisio.net>",
