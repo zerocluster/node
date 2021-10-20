@@ -1,6 +1,6 @@
 FROM centos:latest
 
-ARG NODE_VERSION=latet
+ARG NODE_VERSION=latest
 
 USER root
 
