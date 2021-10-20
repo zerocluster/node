@@ -1,5 +1,7 @@
 FROM centos:latest
 
+ARG NODE_VERSION=latet
+
 USER root
 
 ENV TZ=UTC \
@@ -25,9 +27,9 @@ RUN \
     # setup host
     source <( curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh ) \
     \
-    # install latest node
-    && n latest \
-    && n rm latest \
+    # install Node.js
+    && n $NODE_VERSION \
+    && n rm $NODE_VERSION \
     \
     # setup node
     && npm config --location=global set prefix /root/.npm \
