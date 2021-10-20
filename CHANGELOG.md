@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.2.0 (2021-10-20)
+
+Features:
+
+-   feat: nodejs version variable
+
 ### 1.1.0 (2021-10-02)
 
 Features:
