@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM ubuntu
 
 ARG NODE_VERSION=latest
 
