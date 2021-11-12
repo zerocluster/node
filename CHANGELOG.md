@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.0 (2021-11-12)
+
+Features:
+
+-   feat: ubuntu migration
+
 ### 1.2.0 (2021-10-20)
 
 Features:
