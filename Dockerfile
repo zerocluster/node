@@ -25,7 +25,9 @@ ONBUILD HEALTHCHECK \
 
 RUN \
     # setup host
-    source <( curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh ) \
+    apt update \
+    && apt install -y curl \
+    && source <( curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh ) \
     \
     # install Node.js
     && n $NODE_VERSION \
