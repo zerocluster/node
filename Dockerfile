@@ -4,7 +4,8 @@ ARG NODE_VERSION=latest
 
 USER root
 
-ENV TZ=UTC \
+ENV DEBIAN_FRONTEND=noninteractive \
+    TZ=UTC \
     PATH=$PATH:/root/.npm/bin:/usr/n/bin
 
 WORKDIR /var/local
