@@ -4,9 +4,7 @@ ARG NODE_VERSION=latest
 
 USER root
 
-ENV DEBIAN_FRONTEND=noninteractive \
-    TZ=UTC \
-    PATH=$PATH:/root/.npm/bin:/usr/n/bin
+ENV PATH=$PATH:/root/.npm/bin:/usr/n/bin
 
 WORKDIR /var/local
 
@@ -30,7 +28,7 @@ RUN \
     && apt install -y curl \
     && source <( curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh ) \
     \
-    # install Node.js
+    # install node.js
     && n $NODE_VERSION \
     && n rm $NODE_VERSION \
     \
