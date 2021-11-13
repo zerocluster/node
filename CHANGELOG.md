@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.3 (2021-11-13)
+
+Fixes:
+
+-   fix: ubuntu init
+
 ### 1.3.2 (2021-11-13)
 
 Fixes:
