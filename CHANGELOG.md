@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.5 (2021-11-14)
+
+Fixes:
+
+-   fix: dockerfile
+
 ### 1.3.4 (2021-11-14)
 
 Fixes:
