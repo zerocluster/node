@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.4 (2021-11-14)
+
+Fixes:
+
+-   fix: docker cleanup
+
 ### 1.3.3 (2021-11-13)
 
 Fixes:
