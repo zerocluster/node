@@ -44,7 +44,6 @@ RUN \
     && ln -s ~/.npm/lib/node_modules ~/.node_modules \
     \
     # cleanup
-    && apt autoremove -y gpg \
     && curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh | /bin/bash -s -- cleanup
 
 ENTRYPOINT [ "/bin/bash", "-l" ]
