@@ -4,7 +4,8 @@ ARG NODE_VERSION=latest
 
 USER root
 
-ENV PATH=$PATH:/root/.npm/bin:/usr/n/bin
+ENV DEBIAN_FRONTEND=noninteractive \
+    PATH=$PATH:/root/.npm/bin:/usr/n/bin
 
 WORKDIR /var/local
 
