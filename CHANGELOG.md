@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.7 (2021-11-18)
+
+Fixes:
+
+-   fix: debian frontend
+
 ### 1.3.6 (2021-11-15)
 
 Fixes:
