@@ -24,9 +24,11 @@ ONBUILD HEALTHCHECK \
     CMD curl -f http://127.0.0.1/api/healthcheck || exit 1
 
 RUN \
+    # remove default .bashrc
+    rm -rf ~/.bashrc \
+    \
     # setup host
-    apt update \
-    && apt install -y curl \
+    && apt update && apt install -y curl \
     && source <( curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh ) \
     \
     # install node.js
