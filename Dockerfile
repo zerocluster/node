@@ -16,12 +16,6 @@ ONBUILD SHELL [ "/bin/bash", "-l", "-c" ]
 ONBUILD WORKDIR /var/local/package
 ONBUILD ADD . /var/local/package
 ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "node bin/main.js \"$@\"", "bash" ]
-ONBUILD HEALTHCHECK \
-    --start-period=30s \
-    --interval=30s \
-    --retries=3 \
-    --timeout=10s \
-    CMD curl -f http://127.0.0.1/api/healthcheck || exit 1
 
 RUN \
     # remove default .bashrc
