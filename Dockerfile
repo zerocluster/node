@@ -5,7 +5,8 @@ ARG NODE_VERSION=latest
 USER root
 
 ENV DEBIAN_FRONTEND=noninteractive \
-    PATH=$PATH:/root/.npm/bin:/usr/n/bin
+    PATH=$PATH:/root/.npm/bin:/usr/n/bin \
+    NODE_OPTIONS=--trace-warnings --trace-uncaught
 
 WORKDIR /var/local
 
