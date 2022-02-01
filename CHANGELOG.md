@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.10 (2022-02-01)
+
+Fixes:
+
+-   fix: trace options added
+
 ### 1.3.9 (2022-02-01)
 
 Fixes:
