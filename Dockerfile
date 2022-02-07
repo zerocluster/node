@@ -18,7 +18,7 @@ ONBUILD USER root
 ONBUILD SHELL [ "/bin/bash", "-l", "-c" ]
 ONBUILD WORKDIR /var/local/package
 ONBUILD ADD . /var/local/package
-ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "eval NODE_OPTIONS=\\\${NODE_OPTIONS_$NODE_ENV} && npm run environment -- \"$@\"", "bash" ]
+ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "eval NODE_OPTIONS=\"\\${NODE_OPTIONS_$NODE_ENV}\" && npm run environment -- \"$@\"", "bash" ]
 
 RUN \
     # remove default .bashrc
