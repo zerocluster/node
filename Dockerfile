@@ -6,7 +6,9 @@ USER root
 
 ENV DEBIAN_FRONTEND=noninteractive \
     PATH=$PATH:/root/.npm/bin:/usr/n/bin \
-    NODE_OPTIONS="--trace-warnings --trace-uncaught"
+    NODE_ENV=production \
+    NODE_OPTIONS_development="--trace-warnings --trace-uncaught" \
+    NODE_OPTIONS_production="--trace-warnings"
 
 WORKDIR /var/local
 
@@ -16,7 +18,7 @@ ONBUILD USER root
 ONBUILD SHELL [ "/bin/bash", "-l", "-c" ]
 ONBUILD WORKDIR /var/local/package
 ONBUILD ADD . /var/local/package
-ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "node bin/main.js \"$@\"", "bash" ]
+ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", NODE_OPTION=$NODE_OPTIONS_${NODE_ENV} "npm run environment -- \"$@\"", "bash" ]
 
 RUN \
     # remove default .bashrc
