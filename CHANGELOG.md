@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.12 (2022-02-07)
+
+Fixes:
+
+-   fix: docker environment
+
 ### 1.3.11 (2022-02-07)
 
 Fixes:
