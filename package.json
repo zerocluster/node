@@ -11,13 +11,13 @@
     "homepage": "https://zerocluster.github.io/node/",
     "bugs": {
         "url": "https://github.com/zerocluster/node/issues",
-        "email": "zdm@softvisio.net"
+        "email": "zdm <zdm@softvisio.net>"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/zerocluster/node.git"
     },
-    "license": "ISC",
+    "license": "Proprietary Software",
     "author": "zdm <zdm@softvisio.net>",
     "type": "module"
 }
