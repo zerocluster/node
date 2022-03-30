@@ -21,9 +21,6 @@ ONBUILD ADD . /var/local/package
 ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "eval export NODE_OPTIONS=\\${NODE_OPTIONS_$NODE_ENV} && npm run main -- \"$@\"", "bash" ]
 
 RUN \
-    # remove default .bashrc
-    rm -rf ~/.bashrc \
-    \
     # setup host
     && apt update && apt install -y curl \
     && source <( curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh ) \
