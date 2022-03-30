@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.20 (2022-03-30)
+
+Fixes:
+
+-   fix: dockerfile typo
+
 ### 1.3.19 (2022-03-30)
 
 Fixes:
