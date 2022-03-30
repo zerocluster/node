@@ -22,7 +22,7 @@ ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "eval export NODE_OPTIONS=\\${NODE
 
 RUN \
     # setup host
-    && apt update && apt install -y curl \
+    apt update && apt install -y curl \
     && source <( curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh ) \
     \
     # install node.js
