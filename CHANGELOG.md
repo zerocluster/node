@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.19 (2022-03-30)
+
+Fixes:
+
+-   fix: bash profile
+
 ### 1.3.18 (2022-02-21)
 
 Fixes:
