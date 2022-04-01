@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.21 (2022-04-01)
+
+Fixes:
+
+-   fix: non interactive profile
+
 ### 1.3.20 (2022-03-30)
 
 Fixes:
