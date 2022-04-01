@@ -4,8 +4,7 @@ ARG NODE_VERSION=latest
 
 USER root
 
-ENV DEBIAN_FRONTEND=noninteractive \
-    PATH=/root/.npm/bin:/usr/n/bin:$PATH \
+ENV PATH=/root/.npm/bin:/usr/n/bin:$PATH \
     NODE_ENV=production \
     NODE_OPTIONS_development="--trace-warnings --trace-uncaught" \
     NODE_OPTIONS_production="--trace-warnings"
