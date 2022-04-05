@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.22 (2022-04-05)
+
+Fixes:
+
+-   fix: DEBIAN_FRONTEND=noninteractive
+
 ### 1.3.21 (2022-04-01)
 
 Fixes:
