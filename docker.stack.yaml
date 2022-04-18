@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   node:
-    image: zerocluster/node
+    image: ghcr.io/zerocluster/node
 
     build:
       context: .
