@@ -1,7 +1,5 @@
 FROM ubuntu
 
-LABEL org.opencontainers.image.source="https://github.com/zerocluster/node"
-
 ARG NODE_VERSION=latest
 
 USER root
