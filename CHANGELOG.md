@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.27 (2022-04-22)
+
+Fixes:
+
+-   fix: update npm
+
 ### 1.3.26 (2022-04-22)
 
 Fixes:
