@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.28 (2022-04-22)
+
+Fixes:
+
+-   fix: docker entry point script
+
 ### 1.3.27 (2022-04-22)
 
 Fixes:
