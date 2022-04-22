@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.26 (2022-04-22)
+
+Fixes:
+
+-   fix: signals forwarding
+
 ### 1.3.25 (2022-04-19)
 
 Fixes:
