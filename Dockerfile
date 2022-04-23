@@ -34,6 +34,7 @@ RUN \
     && npm config --location=global set cache /root/.npm-cache \
     && npm config --location=global set engine-strict true \
     && npm config --location=global set fund false \
+    && npm config --location=global set update-notifier false \
     \
     # make global node modules loadable
     && mkdir -p ~/.npm/lib \
