@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.29 (2022-04-23)
+
+Fixes:
+
+-   fix: disable npm update notification
+
 ### 1.3.28 (2022-04-22)
 
 Fixes:
