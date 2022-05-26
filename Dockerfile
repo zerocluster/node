@@ -42,7 +42,7 @@ RUN \
     && ln -s ~/.npm/lib/node_modules ~/.node_modules \
     \
     # update npm
-    # && npm i -g npm \
+    # && npm i --location=global npm \
     \
     # cleanup
     && curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh | /bin/bash -s -- cleanup
