@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.31 (2022-05-26)
+
+Fixes:
+
+-   fix: npm -g deprecated
+
 ### 1.3.30 (2022-05-19)
 
 Fixes:
