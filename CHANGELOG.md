@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.32 (2022-08-18)
+
+Fixes:
+
+-   fix: npm location
+
 ### 1.3.31 (2022-05-26)
 
 Fixes:
