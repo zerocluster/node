@@ -30,11 +30,11 @@ RUN \
     && n rm $NODE_VERSION \
     \
     # setup node
-    && npm config --location=global set prefix /root/.npm \
-    && npm config --location=global set cache /root/.npm-cache \
-    && npm config --location=global set engine-strict true \
-    && npm config --location=global set fund false \
-    && npm config --location=global set update-notifier false \
+    && npm config --global set prefix /root/.npm \
+    && npm config --global set cache /root/.npm-cache \
+    && npm config --global set engine-strict true \
+    && npm config --global set fund false \
+    && npm config --global set update-notifier false \
     \
     # make global node modules loadable
     && mkdir -p ~/.npm/lib \
@@ -42,7 +42,7 @@ RUN \
     && ln -s ~/.npm/lib/node_modules ~/.node_modules \
     \
     # update npm
-    # && npm i --location=global npm \
+    # && npm i --global npm \
     \
     # cleanup
     && curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh | /bin/bash -s -- cleanup
