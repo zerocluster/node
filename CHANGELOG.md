@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.33 (2022-08-30)
+
+Fixes:
+
+-   fix: GIT_UDID dockerfile
+
 ### 1.3.32 (2022-08-18)
 
 Fixes:
