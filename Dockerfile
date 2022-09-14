@@ -47,6 +47,6 @@ RUN \
     # && npm i --global npm \
     \
     # cleanup
-    && curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh | /bin/bash -s -- cleanup
+    && /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh) cleanup
 
 ENTRYPOINT [ "/bin/bash", "-l" ]
