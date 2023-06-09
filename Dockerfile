@@ -1,6 +1,6 @@
 FROM ubuntu
 
-ARG NODE_VERSION=20.2.0
+ARG NODE_VERSION=latest
 
 USER root
 
@@ -20,7 +20,7 @@ ONBUILD USER root
 ONBUILD SHELL [ "/bin/bash", "-l", "-c" ]
 ONBUILD WORKDIR /var/local/package
 ONBUILD ADD . /var/local/package
-ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "eval export NODE_OPTIONS=\\${NODE_OPTIONS_$NODE_ENV} && npm run --script-shell=/bin/bash docker -- \"$@\"", "bash" ]
+ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "eval export NODE_OPTIONS=\\${NODE_OPTIONS_$NODE_ENV} && npm run docker -- \"$@\"", "bash" ]
 
 RUN \
     # setup host
@@ -44,7 +44,7 @@ RUN \
     && ln -s ~/.npm/lib/node_modules ~/.node_modules \
     \
     # update npm
-    && npm i --global npm \
+    # && npm i --global npm \
     \
     # cleanup
     && /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh) cleanup
