@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.41 (2023-06-09)
+
+Fixes:
+
+-   fix: use latest npm
+
 ### 1.3.40 (2023-06-09)
 
 Fixes:
