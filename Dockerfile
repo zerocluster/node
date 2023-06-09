@@ -1,7 +1,7 @@
 FROM ubuntu
 
 ARG NODE_VERSION=20.2.0
-ARG NPM_VERSION=9.6.6
+ARG NPM_VERSION=latest
 
 USER root
 
