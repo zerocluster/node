@@ -1,6 +1,6 @@
 FROM ubuntu
 
-ARG NODE_VERSION=latest
+ARG NODE_VERSION=20.2.0
 
 USER root
 
