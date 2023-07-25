@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.51 (2023-07-25)
+
+Fixes:
+
+-   fix: log remove
+
 ### 1.3.50 (2023-07-25)
 
 Fixes:
