@@ -1,15 +1,12 @@
 FROM ubuntu
 
 ARG NODE_VERSION=latest
-ARG NPM_VERSION=9.6.6
+ARG NPM_VERSION=latest
 
 USER root
 
 ENV DEBIAN_FRONTEND=noninteractive \
-    PATH=/root/.npm/bin:/usr/n/bin:$PATH \
-    NODE_ENV=production \
-    NODE_OPTIONS_development="--trace-warnings --trace-uncaught" \
-    NODE_OPTIONS_production="--trace-warnings"
+    PATH=/root/.npm/bin:/usr/n/bin:$PATH
 
 WORKDIR /var/local
 
@@ -21,7 +18,7 @@ ONBUILD USER root
 ONBUILD SHELL [ "/bin/bash", "-l", "-c" ]
 ONBUILD WORKDIR /var/local/package
 ONBUILD ADD . /var/local/package
-ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "eval export NODE_OPTIONS=\\${NODE_OPTIONS_$NODE_ENV} && npm run --script-shell=/bin/bash docker -- \"$@\"", "bash" ]
+ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "exec `node -e 'console.log(require(\"./package.json\").scripts.docker)'` \"$@\"" ]
 
 RUN \
     # setup host
