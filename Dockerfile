@@ -18,7 +18,7 @@ ONBUILD USER root
 ONBUILD SHELL [ "/bin/bash", "-l", "-c" ]
 ONBUILD WORKDIR /var/local/package
 ONBUILD ADD . /var/local/package
-ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "exec `node -e 'console.log(require(\"./package.json\").scripts.docker)'` \"$@\"" ]
+ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "exec `node -e 'console.log(require(\"./package.json\").scripts.docker)'` $@", "bash" ]
 
 RUN \
     # setup host
