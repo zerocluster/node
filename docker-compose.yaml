@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  node:
+    image: ghcr.io/zerocluster/node
+
+    build:
+      context: .
+      dockerfile: node.dockerfile
+
+  node-app:
+    depends_on: [node]
+    image: ghcr.io/zerocluster/node-app
+
+    build:
+      context: .
+      dockerfile: node-app.dockerfile
+
+x-build:
+  default_tag: latest
+  # auto_tags: [main, latest, next]
