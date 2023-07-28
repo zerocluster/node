@@ -21,4 +21,4 @@ ONBUILD HEALTHCHECK \
     --start-period=60s \
     # --start-interval=5s \ # XXX unknown option
     --retries=3 \
-    CMD curl -f --unix-socket /tmp/check-health.socket http://check-health/ || exit 1
+    CMD curl -f --unix-socket /tmp/health-check.socket http://check-health/ || exit 1
