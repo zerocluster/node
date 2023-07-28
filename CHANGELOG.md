@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.56 (2023-07-28)
+
+Fixes:
+
+-   fix: health check
+
 ### 1.3.55 (2023-07-28)
 
 Fixes:
