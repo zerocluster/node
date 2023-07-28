@@ -6,15 +6,14 @@ services:
 
     build:
       context: .
-      dockerfile: node.dockerfile
 
-  node-app:
+  app:
     depends_on: [node]
-    image: ghcr.io/zerocluster/node-app
+    image: ghcr.io/zerocluster/node/app
 
     build:
       context: .
-      dockerfile: node-app.dockerfile
+      dockerfile: app.dockerfile
 
 x-build:
   default_tag: latest
