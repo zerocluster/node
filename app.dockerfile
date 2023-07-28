@@ -1,6 +1,5 @@
 FROM ghcr.io/zerocluster/node
 
-
 USER root
 WORKDIR /var/local
 SHELL [ "/bin/bash", "-l", "-c" ]
