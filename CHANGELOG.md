@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.58 (2023-07-28)
+
+Fixes:
+
+-   fix: dockerfile
+
 ### 1.3.57 (2023-07-28)
 
 Fixes:
