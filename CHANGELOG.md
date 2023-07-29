@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.60 (2023-07-29)
+
+Fixes:
+
+-   fix: docker build
+
 ### 1.3.59 (2023-07-29)
 
 Fixes:
