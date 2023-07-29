@@ -14,7 +14,3 @@ services:
     build:
       context: .
       dockerfile: app.dockerfile
-
-x-build:
-  default_tag: latest
-  # auto_tags: [main, latest, next]
