@@ -20,4 +20,4 @@ ONBUILD HEALTHCHECK \
     --start-period=60s \
     # --start-interval=5s \ # XXX unknown option
     --retries=3 \
-    CMD curl -f http://127.0.0.1:91/ || exit 1
+    CMD curl -f http://127.0.0.1:8081/ || exit 1
