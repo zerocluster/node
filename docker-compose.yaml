@@ -4,8 +4,7 @@ services:
   node:
     image: ghcr.io/zerocluster/node
 
-    build:
-      context: .
+    build: .
 
   app:
     depends_on: [node]
