@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.64 (2023-08-03)
+
+Fixes:
+
+-   fix: healthcheck port
+
 ### 1.3.63 (2023-07-31)
 
 Fixes:
