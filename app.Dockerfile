@@ -1,6 +1,6 @@
 FROM ghcr.io/zerocluster/node
 
-ENV ENTRYPOINT=node bin/main.js
+ENV ENTRYPOINT="node bin/main.js"
 
 USER root
 WORKDIR /var/local
