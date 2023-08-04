@@ -1,5 +1,7 @@
 FROM ghcr.io/zerocluster/node
 
+ENV ENTRYPOINT=node bin/main.js
+
 USER root
 WORKDIR /var/local
 SHELL [ "/bin/bash", "-l", "-c" ]
@@ -12,7 +14,7 @@ ONBUILD SHELL [ "/bin/bash", "-l", "-c" ]
 ONBUILD WORKDIR /var/local/package
 ONBUILD ADD . /var/local/package
 
-ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "exec `node -e 'process.stdout.write( require( \"./package.json\" ).scripts?.docker || \"Docker script not found in the package.json\" )'` $@", "bash" ]
+ONBUILD ENTRYPOINT [ "/bin/bash", "-l", "-c", "exec $ENTRYPOINT $@", "bash" ]
 
 ONBUILD HEALTHCHECK \
     --interval=30s \
