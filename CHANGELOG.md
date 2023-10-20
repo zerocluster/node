@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.67 (2023-10-20)
+
+Fixes:
+
+-   fix: switch to lts version
+
 ### 1.3.66 (2023-08-04)
 
 Fixes:
