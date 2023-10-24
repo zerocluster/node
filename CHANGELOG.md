@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.69 (2023-10-24)
+
+Fixes:
+
+-   fix: node lts
+
 ### 1.3.68 (2023-10-20)
 
 Fixes:
