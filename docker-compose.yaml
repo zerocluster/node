@@ -4,7 +4,11 @@ services:
   node:
     image: ghcr.io/zerocluster/node
 
-    build: .
+    build:
+      context: .
+      args:
+        NODE_VERSION: lts6
+        NPM_VERSION: latest
 
   app:
     depends_on: [node]
