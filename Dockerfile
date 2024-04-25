@@ -40,7 +40,9 @@ RUN \
     && ln -s ~/.npm/lib/node_modules ~/.node_modules \
     \
     # update npm
-    && IF [[ ! -z $NPM_VERSION ]] npm i --global npm@$NPM_VERSION; \
+    && if [[ ! -z $NPM_VERSION ]]; then \
+    npm i --global npm@$NPM_VERSION; \
+    fi \
     \
     # cleanup
     && /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh) cleanup
