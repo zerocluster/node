@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.73 (2024-04-25)
+
+Fixes:
+
+-   fix: docer args
+
 ### 1.3.72 (2024-04-25)
 
 Fixes:
