@@ -1,7 +1,7 @@
 FROM ubuntu
 
-ARG NODE_VERSION=lts
-ARG NPM_VERSION=latest
+ARG NODE_VERSION \
+    NPM_VERSION
 
 ENV DEBIAN_FRONTEND=noninteractive \
     PATH=/root/.npm/bin:/usr/n/bin:$PATH
@@ -40,7 +40,7 @@ RUN \
     && ln -s ~/.npm/lib/node_modules ~/.node_modules \
     \
     # update npm
-    # && npm i --global npm@$NPM_VERSION \
+    && IF [[ ! -z $NPM_VERSION ]] npm i --global npm@$NPM_VERSION; \
     \
     # cleanup
     && /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh) cleanup
