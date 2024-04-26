@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.79 (2024-04-26)
+
+Fixes:
+
+-   fix: ubuntu lts
+
 ### 1.3.78 (2024-04-26)
 
 Fixes:
