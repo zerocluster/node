@@ -1,7 +1,8 @@
-FROM ubuntu
-
-ARG NODE_VERSION \
+ARG UBUNTU_VERSION \
+    NODE_VERSION \
     NPM_VERSION
+
+FROM ubuntu:$UBUNTU_VERSION
 
 ENV DEBIAN_FRONTEND=noninteractive \
     PATH=/root/.npm/bin:/usr/n/bin:$PATH
