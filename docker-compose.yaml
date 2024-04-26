@@ -7,7 +7,7 @@ services:
     build:
       context: .
       args:
-        UBUNTU_VERSION: 24.04
+        UBUNTU_VERSION: latest
         NODE_VERSION: lts
         # NPM_VERSION: latest
 
