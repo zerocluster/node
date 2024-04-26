@@ -21,9 +21,8 @@ ONBUILD ENTRYPOINT [ "/bin/bash", "-l" ]
 
 RUN \
     # setup host
-    echo $UBUNTU_VERSION \
-    && echo $NODE_VERSION \
-    && exit 1 \
+    echo ubunt: $UBUNTU_VERSION \
+    && echo node: $NODE_VERSION \
     \
     && apt-get update && apt-get install -y curl \
     && source <( curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh ) \
