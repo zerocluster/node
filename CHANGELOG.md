@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.77 (2024-04-26)
+
+Fixes:
+
+-   fix: ubuntu version
+
 ### 1.3.76 (2024-04-26)
 
 Fixes:
