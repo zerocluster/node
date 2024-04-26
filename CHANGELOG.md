@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.75 (2024-04-26)
+
+Fixes:
+
+-   fix: dockerfile
+
 ### 1.3.74 (2024-04-25)
 
 Fixes:
