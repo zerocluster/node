@@ -21,7 +21,7 @@ ONBUILD ENTRYPOINT [ "/bin/bash", "-l" ]
 
 RUN \
     # setup host
-    echo --- ubunt: ${UBUNTU_VERSION} \
+    echo "--- ubunt: ${UBUNTU_VERSION} ==" \
     && echo --- node: ${NODE_VERSION} \
     && exit 1 \
     \
