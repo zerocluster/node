@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.76 (2024-04-26)
+
+Fixes:
+
+-   fix: dokerfile
+
 ### 1.3.75 (2024-04-26)
 
 Fixes:
