@@ -1,8 +1,9 @@
 ARG UBUNTU_VERSION
-ARG    NODE_VERSION=aaaa
-ARG    NPM_VERSION
 
 FROM ubuntu:$UBUNTU_VERSION
+
+ARG    NODE_VERSION \
+    NPM_VERSION
 
 ENV DEBIAN_FRONTEND=noninteractive \
     PATH=/root/.npm/bin:/usr/n/bin:$PATH
@@ -12,7 +13,7 @@ WORKDIR /var/local
 SHELL [ "/bin/bash", "-l", "-c" ]
 ENTRYPOINT [ "/bin/bash", "-l" ]
 
-# ONBUILD ARG GIT_ID
+ONBUILD ARG GIT_ID
 ONBUILD ENV GIT_ID=$GIT_ID
 ONBUILD USER root
 ONBUILD SHELL [ "/bin/bash", "-l", "-c" ]
@@ -21,11 +22,7 @@ ONBUILD ENTRYPOINT [ "/bin/bash", "-l" ]
 
 RUN \
     # setup host
-    echo "--- ubunt: ${UBUNTU_VERSION} ==" \
-    && echo --- node: ${NODE_VERSION} \
-    && exit 1 \
-    \
-    && apt-get update && apt-get install -y curl \
+    apt-get update && apt-get install -y curl \
     && source <( curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh ) \
     \
     # install node.js
