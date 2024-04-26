@@ -21,7 +21,11 @@ ONBUILD ENTRYPOINT [ "/bin/bash", "-l" ]
 
 RUN \
     # setup host
-    apt-get update && apt-get install -y curl \
+    echo $UBUNTU_VERSION \
+    && echo $NODE_VERSION \
+    && exit 1 \
+    \
+    && apt-get update && apt-get install -y curl \
     && source <( curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh ) \
     \
     # install node.js
