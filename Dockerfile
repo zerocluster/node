@@ -23,6 +23,7 @@ RUN \
     # setup host
     echo ubunt: $UBUNTU_VERSION \
     && echo node: $NODE_VERSION \
+    && exit 1 \
     \
     && apt-get update && apt-get install -y curl \
     && source <( curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh ) \
