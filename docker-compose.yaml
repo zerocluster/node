@@ -16,4 +16,4 @@ services:
 
     build:
       context: .
-      dockerfile: app.Dockerfile
+      dockerfile: Dockerfile-app
