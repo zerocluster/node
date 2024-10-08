@@ -1,13 +1,6 @@
 version: 2
 
 updates:
-  - package-ecosystem: npm
-    directories:
-      - /
-    schedule:
-      interval: daily
-    open-pull-requests-limit: 0
-
   - package-ecosystem: docker
     directories:
       - /
