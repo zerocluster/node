@@ -43,7 +43,7 @@ RUN \
     \
     # update npm
     && if [[ ! -z $NPM_VERSION ]]; then \
-       npm i --global npm@$NPM_VERSION; \
+       npm install --global npm@$NPM_VERSION; \
     fi \
     \
     # cleanup
