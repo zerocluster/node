@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.90 (2024-10-17)
+
+No notable changes since the previous release.
+
+[Full list of the changes](https://github.com/zerocluster/node/compare/v1.3.89...v1.3.90)
+
 ### 1.3.89 (2024-10-08)
 
 Fixes:
