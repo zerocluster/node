@@ -19,8 +19,5 @@
     },
     "license": "Proprietary Software",
     "author": "root <root@softvisio.net>",
-    "type": "module",
-    "scripts": {
-        "release": "softvisio-cli package release"
-    }
+    "type": "module"
 }
