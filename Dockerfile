@@ -1,8 +1,9 @@
-ARG UBUNTU_VERSION=latest \
-    NODE_VERSION=lts \
-    NPM_VERSION
+ARG UBUNTU_VERSION=latest
 
 FROM ubuntu:$UBUNTU_VERSION
+
+ARG NODE_VERSION=lts \
+    NPM_VERSION
 
 ENV DEBIAN_FRONTEND=noninteractive \
     PATH=/root/.npm/bin:/usr/n/bin:$PATH
