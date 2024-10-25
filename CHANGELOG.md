@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.3.93 (2024-10-25)
+
+Fixes:
+
+-   fix: set dockerfile args default values
+
+[Compare with the previous release: v1.3.92 ... v1.3.93](https://github.com/zerocluster/node/compare/v1.3.92...v1.3.93)
+
 ### 1.3.92 (2024-10-25)
 
 Fixes:
