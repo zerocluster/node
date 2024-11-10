@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.3.95 (2024-11-10)
+
+Other changes:
+
+-   chore: update package metadata
+
+[Compare with the previous release: v1.3.94 ... v1.3.95](https://github.com/zerocluster/node/compare/v1.3.94...v1.3.95)
+
 ### 1.3.94 (2024-10-29)
 
 Other changes:
