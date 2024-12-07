@@ -1,18 +1,18 @@
 services:
-  node:
-    image: ghcr.io/zerocluster/node
+    node:
+        image: ghcr.io/zerocluster/node
 
-    build:
-      context: .
-      args:
-        UBUNTU_VERSION: latest
-        NODE_VERSION: lts
-        # NPM_VERSION: latest
+        build:
+            context: .
+            args:
+                UBUNTU_VERSION: latest
+                NODE_VERSION: lts
+                # NPM_VERSION: latest
 
-  app:
-    depends_on: [node]
-    image: ghcr.io/zerocluster/node/app
+    app:
+        depends_on: [node]
+        image: ghcr.io/zerocluster/node/app
 
-    build:
-      context: .
-      dockerfile: Dockerfile-app
+        build:
+            context: .
+            dockerfile: Dockerfile-app
