@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.3.97 (2024-12-07)
+
+Other changes:
+
+- chore: set yaml indent to 4 spaces
+
+[Compare with the previous release: v1.3.96 ... v1.3.97](https://github.com/zerocluster/node/compare/v1.3.96...v1.3.97)
+
 ### 1.3.96 (2024-11-27)
 
 Other changes:
