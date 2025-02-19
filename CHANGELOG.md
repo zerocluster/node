@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.3.100 (2025-02-19)
+
+Other changes:
+
+- chore: update cli config
+
+Compare with the previous release: [`v1.3.99...v1.3.100`](https://github.com/zerocluster/node/compare/v1.3.99...v1.3.100)
+
 ### 1.3.99 (2025-01-22)
 
 Other changes:
