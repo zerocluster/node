@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.3.101 (2025-02-26)
+
+Other changes:
+
+- chore: update editorconfig
+
+Compare with the previous release: [`v1.3.100...v1.3.101`](https://github.com/zerocluster/node/compare/v1.3.100...v1.3.101)
+
 ### 1.3.100 (2025-02-19)
 
 Other changes:
