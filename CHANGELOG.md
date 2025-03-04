@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.3.103 (2025-03-04)
+
+Other changes:
+
+- chore: update package metadata
+
+Compare with the previous release: [`v1.3.102...v1.3.103`](https://github.com/zerocluster/node/compare/v1.3.102...v1.3.103)
+
 ### 1.3.102 (2025-02-27)
 
 Other changes:
