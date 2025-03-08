@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.3.104 (2025-03-08)
+
+Other changes:
+
+- chore: fix shebang
+
+Compare with the previous release: [`v1.3.103...v1.3.104`](https://github.com/zerocluster/node/compare/v1.3.103...v1.3.104)
+
 ### 1.3.103 (2025-03-04)
 
 Other changes:
