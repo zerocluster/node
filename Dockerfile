@@ -10,15 +10,15 @@ ENV DEBIAN_FRONTEND=noninteractive \
 
 USER root
 WORKDIR /var/local
-SHELL [ "/bin/bash", "-l", "-c" ]
-ENTRYPOINT [ "/bin/bash", "-l" ]
+SHELL [ "/usr/bin/env", "bash", "-l", "-c" ]
+ENTRYPOINT [ "/usr/bin/env", "bash", "-l" ]
 
 ONBUILD ARG GIT_ID
 ONBUILD ENV GIT_ID=$GIT_ID
 ONBUILD USER root
-ONBUILD SHELL [ "/bin/bash", "-l", "-c" ]
+ONBUILD SHELL [ "/usr/bin/env", "bash", "-l", "-c" ]
 ONBUILD WORKDIR /var/local
-ONBUILD ENTRYPOINT [ "/bin/bash", "-l" ]
+ONBUILD ENTRYPOINT [ "/usr/bin/env", "bash", "-l" ]
 
 RUN \
     # setup host
@@ -47,4 +47,4 @@ RUN \
     fi \
     \
     # cleanup
-    && /bin/bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh) cleanup
+    && /usr/bin/env bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh) cleanup
