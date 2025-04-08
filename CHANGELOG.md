@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.3.105 (2025-04-08)
+
+Other changes:
+
+- chore: rename dockerfile
+
+Compare with the previous release: [`v1.3.104...v1.3.105`](https://github.com/zerocluster/node/compare/v1.3.104...v1.3.105)
+
 ### 1.3.104 (2025-03-08)
 
 Other changes:
