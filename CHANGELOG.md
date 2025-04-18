@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.3.106 (2025-04-18)
+
+Other changes:
+
+- chore: lint
+
+Compare with the previous release: [`v1.3.105...v1.3.106`](https://github.com/zerocluster/node/compare/v1.3.105...v1.3.106)
+
 ### 1.3.105 (2025-04-08)
 
 Other changes:
