@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.3.107 (2025-06-01)
+
+**Other changes:**
+
+- \[PATCH] chore: update docs (👬 zdm)
+
+Compare with the previous release: [v1.3.106](https://github.com/zerocluster/node/compare/v1.3.106...v1.3.107)
+
 ### 1.3.106 (2025-04-18)
 
 Other changes:
