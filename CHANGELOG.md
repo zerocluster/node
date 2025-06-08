@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.4.0 (2025-06-08)
+
+**Features:**
+
+- \[MINOR] feat: rename GIT_ID to BUILD_VERSION (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: fix dockerfile syntax hl (👬 zdm)
+
+- \[PATCH] chore: update cli config (👬 zdm)
+
+Compare with the previous release: [v1.3.107](https://github.com/zerocluster/node/compare/v1.3.107...v1.4.0)
+
 ### v1.3.107 (2025-06-01)
 
 **Other changes:**
