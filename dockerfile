@@ -13,8 +13,8 @@ WORKDIR /var/local
 SHELL [ "/usr/bin/env", "bash", "-l", "-c" ]
 ENTRYPOINT [ "/usr/bin/env", "bash", "-l" ]
 
-ONBUILD ARG GIT_ID
-ONBUILD ENV GIT_ID=$GIT_ID
+ONBUILD ARG BUILD_VERSION
+ONBUILD ENV BUILD_VERSION=$BUILD_VERSION
 ONBUILD USER root
 ONBUILD SHELL [ "/usr/bin/env", "bash", "-l", "-c" ]
 ONBUILD WORKDIR /var/local
