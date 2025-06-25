@@ -42,7 +42,7 @@ RUN \
     && ln -s ~/.npm/lib/node_modules ~/.node_modules \
     \
     # update npm
-    && if [[ ! -z $NPM_VERSION ]]; then \
+    && if [[ ! -z ${NPM_VERSION:-} ]]; then \
        npm install --global npm@$NPM_VERSION; \
     fi \
     \
