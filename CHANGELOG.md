@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.4.1 (2025-06-25)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update bash scripts errors handling (● [910312d](https://github.com/zerocluster/node/commit/910312d); 👬 zdm)
+
+Compare with the previous release: [v1.4.0](https://github.com/zerocluster/node/compare/v1.4.0...v1.4.1)
+
 ### v1.4.0 (2025-06-08)
 
 **Features:**
