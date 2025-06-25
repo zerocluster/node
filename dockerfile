@@ -23,7 +23,7 @@ ONBUILD ENTRYPOINT [ "/usr/bin/env", "bash", "-l" ]
 RUN \
     # setup host
     apt-get update && apt-get install -y curl \
-    && source <( curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh ) \
+    && source <(curl -fsSL "https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh") \
     \
     # install node.js
     && n $NODE_VERSION \
@@ -47,4 +47,4 @@ RUN \
     fi \
     \
     # cleanup
-    && /usr/bin/env bash <(curl -fsSL https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh) cleanup
+    && bash <(curl -fsSL "https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh") cleanup
