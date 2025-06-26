@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.4.3 (2025-06-26)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: fix bash invocation in scripts (● [fc29c86](https://github.com/zerocluster/node/commit/fc29c86); 👬 zdm)
+
+- \[PATCH] refactor: fix external bash scripts invocation (● [cf64c1e](https://github.com/zerocluster/node/commit/cf64c1e); 👬 zdm)
+
+Compare with the previous release: [v1.4.2](https://github.com/zerocluster/node/compare/v1.4.2...v1.4.3)
+
 ### v1.4.2 (2025-06-25)
 
 **Code refactoring:**
