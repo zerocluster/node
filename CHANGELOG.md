@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.4.4 (2025-07-16)
+
+**Other changes:**
+
+- docs: update (● [27830ba](https://github.com/zerocluster/node/commit/27830ba); 👬 zdm)
+
+Compare with the previous release: [v1.4.3](https://github.com/zerocluster/node/compare/v1.4.3...v1.4.4)
+
 ### v1.4.3 (2025-06-26)
 
 **Code refactoring:**
