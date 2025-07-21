@@ -2,7 +2,7 @@ ARG UBUNTU_VERSION=latest
 
 FROM ubuntu:$UBUNTU_VERSION
 
-ARG NODE_VERSION=lts
+ARG NODE_VERSION=lts/*
 ARG NPM_VERSION
 
 ENV DEBIAN_FRONTEND=noninteractive \
@@ -27,8 +27,8 @@ RUN \
     && source <(echo "$script") \
     \
     # install node.js
-    && n $NODE_VERSION \
-    && n rm $NODE_VERSION \
+    && nvm install $NODE_VERSION \
+    && nvm cache clear \
     \
     # setup node
     && npm config --global set prefix /root/.npm \
