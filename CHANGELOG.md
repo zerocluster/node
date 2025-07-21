@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.5.0 (2025-07-21)
+
+**New features:**
+
+- \[MINOR] feat: use nvm (● [bd749da](https://github.com/zerocluster/node/commit/bd749da); 👬 zdm)
+
+Compare with the previous release: [v1.4.4](https://github.com/zerocluster/node/compare/v1.4.4...v1.5.0)
+
 ### v1.4.4 (2025-07-16)
 
 **Other changes:**
