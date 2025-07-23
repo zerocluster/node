@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.6.1 (2025-07-23)
+
+**Bug fixes:**
+
+- \[PATCH] fix: update editorconfig (● [d3b077e](https://github.com/zerocluster/node/commit/d3b077e); 👬 zdm)
+
+Compare with the previous release: [v1.6.0](https://github.com/zerocluster/node/compare/v1.6.0...v1.6.1)
+
 ### v1.6.0 (2025-07-23)
 
 **New features:**
