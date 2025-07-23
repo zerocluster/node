@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.6.0 (2025-07-23)
+
+**New features:**
+
+- \[MINOR] feat: migrate to n (● [1440ef0](https://github.com/zerocluster/node/commit/1440ef0); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix editorconfig (● [468a806](https://github.com/zerocluster/node/commit/468a806); 👬 zdm)
+
+Compare with the previous release: [v1.5.0](https://github.com/zerocluster/node/compare/v1.5.0...v1.6.0)
+
 ### v1.5.0 (2025-07-21)
 
 **New features:**
