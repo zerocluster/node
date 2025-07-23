@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.6.5 (2025-07-23)
+
+**Other changes:**
+
+- style: update .npmrc (● [718ab69](https://github.com/zerocluster/node/commit/718ab69); 👬 zdm)
+
+Compare with the previous release: [v1.6.4](https://github.com/zerocluster/node/compare/v1.6.4...v1.6.5)
+
 ### v1.6.4 (2025-07-23)
 
 **Other changes:**
