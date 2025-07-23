@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.6.2 (2025-07-23)
+
+**Other changes:**
+
+- build: update dockerfile (● [22712b8](https://github.com/zerocluster/node/commit/22712b8); 👬 zdm)
+
+Compare with the previous release: [v1.6.1](https://github.com/zerocluster/node/compare/v1.6.1...v1.6.2)
+
 ### v1.6.1 (2025-07-23)
 
 **Bug fixes:**
