@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.6.4 (2025-07-23)
+
+**Other changes:**
+
+- build: update dockerfile (● [fcba1c8](https://github.com/zerocluster/node/commit/fcba1c8); 👬 zdm)
+
+Compare with the previous release: [v1.6.3](https://github.com/zerocluster/node/compare/v1.6.3...v1.6.4)
+
 ### v1.6.3 (2025-07-23)
 
 **Other changes:**
