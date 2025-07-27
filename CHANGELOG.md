@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.7.0 (2025-07-27)
+
+**New features:**
+
+- \[MINOR] feat: use fnm (● [6c314d1](https://github.com/zerocluster/node/commit/6c314d1); 👬 zdm)
+
+Compare with the previous release: [v1.6.5](https://github.com/zerocluster/node/compare/v1.6.5...v1.7.0)
+
 ### v1.6.5 (2025-07-23)
 
 **Other changes:**
