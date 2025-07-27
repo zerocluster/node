@@ -2,7 +2,7 @@ ARG UBUNTU_VERSION=latest
 
 FROM ubuntu:$UBUNTU_VERSION
 
-ARG NODE_VERSION=lts
+ARG NODE_VERSION=lts-latest
 ARG NPM_VERSION
 
 ENV DEBIAN_FRONTEND=noninteractive
@@ -26,7 +26,7 @@ RUN \
     && source <(echo "$script") \
     \
     # install node.js
-    && n --cleanup $NODE_VERSION \
+    && fnm use --install-if-missing $NODE_VERSION \
     \
     # setup node
     && npm config --global set engine-strict true \

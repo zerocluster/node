@@ -6,7 +6,7 @@ services:
       context: .
       args:
         UBUNTU_VERSION: latest
-        NODE_VERSION: lts
+        NODE_VERSION: lts-latest
         NPM_VERSION: latest
 
   app:
