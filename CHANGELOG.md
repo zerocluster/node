@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.7.1 (2025-07-29)
+
+**Bug fixes:**
+
+- \[PATCH] fix: add node to path (● [10bbcd5](https://github.com/zerocluster/node/commit/10bbcd5); 👬 zdm)
+
+Compare with the previous release: [v1.7.0](https://github.com/zerocluster/node/compare/v1.7.0...v1.7.1)
+
 ### v1.7.0 (2025-07-27)
 
 **New features:**
