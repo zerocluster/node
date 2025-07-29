@@ -5,7 +5,8 @@ FROM ubuntu:$UBUNTU_VERSION
 ARG NODE_VERSION=lts-latest
 ARG NPM_VERSION
 
-ENV DEBIAN_FRONTEND=noninteractive
+ENV DEBIAN_FRONTEND=noninteractive \
+    PATH=/root/.local/share/fnm/current/bin:$PATH
 
 USER root
 WORKDIR /var/local
