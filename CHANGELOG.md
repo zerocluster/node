@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.7.2 (2025-08-11)
+
+**Other changes:**
+
+- build: update npmrc (● [b32286e](https://github.com/zerocluster/node/commit/b32286e); 👬 zdm)
+
+Compare with the previous release: [v1.7.1](https://github.com/zerocluster/node/compare/v1.7.1...v1.7.2)
+
 ### v1.7.1 (2025-07-29)
 
 **Bug fixes:**
