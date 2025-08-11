@@ -29,11 +29,6 @@ RUN \
     # install node.js
     && fnm use --install-if-missing $NODE_VERSION \
     \
-    # setup node
-    && npm config --global set engine-strict true \
-    && npm config --global set fund false \
-    && npm config --global set update-notifier false \
-    \
     # update npm
     && if [[ ! -z ${NPM_VERSION:-} ]]; then \
        npm install --global npm@$NPM_VERSION; \
