@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.7.3 (2025-12-11)
+
+**Other changes:**
+
+- build: migrate to c0rejs namespace (● [8a83ccb](https://github.com/zerocluster/node/commit/8a83ccb), [0a1e89c](https://github.com/zerocluster/node/commit/0a1e89c); 👬 zdm)
+
+Compare with the previous release: [v1.7.2](https://github.com/zerocluster/node/compare/v1.7.2...v1.7.3)
+
 ### v1.7.2 (2025-08-11)
 
 **Other changes:**
