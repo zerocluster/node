@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.8.1 (2025-12-12)
+
+**Bug fixes:**
+
+- \[PATCH] fix: remove npm args (● [c8d05c5](https://github.com/zerocluster/node/commit/c8d05c5); 👬 zdm)
+
+Compare with the previous release: [v1.8.0](https://github.com/zerocluster/node/compare/v1.8.0...v1.8.1)
+
 ### v1.8.0 (2025-12-12)
 
 **New features:**
