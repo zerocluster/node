@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.8.0 (2025-12-12)
+
+**New features:**
+
+- \[MINOR] feat: add npm args (● [d72cea4](https://github.com/zerocluster/node/commit/d72cea4); 👬 zdm)
+
+Compare with the previous release: [v1.7.4](https://github.com/zerocluster/node/compare/v1.7.4...v1.8.0)
+
 ### v1.7.4 (2025-12-11)
 
 **Other changes:**
