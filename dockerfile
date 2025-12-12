@@ -13,8 +13,13 @@ WORKDIR /var/local
 SHELL [ "/usr/bin/env", "bash", "-l", "-c" ]
 ENTRYPOINT [ "/usr/bin/env", "bash", "-l" ]
 
+ONBUILD ARG GITHUB_TOKEN
+ONBUILD ARG NPM_TOKEN_NPMJS
+ONBUILD ARG NPM_TOKEN_GITHUB
+
 ONBUILD ARG BUILD_VERSION
 ONBUILD ENV BUILD_VERSION=$BUILD_VERSION
+
 ONBUILD USER root
 ONBUILD SHELL [ "/usr/bin/env", "bash", "-l", "-c" ]
 ONBUILD WORKDIR /var/local
@@ -30,7 +35,7 @@ RUN \
     && fnm use --install-if-missing $NODE_VERSION \
     \
     # update npm
-    && if [[ ! -z ${NPM_VERSION:-} ]]; then \
+    && if [[ -n ${NPM_VERSION:-} ]]; then \
        npm install --global npm@$NPM_VERSION; \
     fi \
     \
