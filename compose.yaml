@@ -8,6 +8,10 @@ services:
         UBUNTU_VERSION: latest
         NODE_VERSION: lts-latest
         NPM_VERSION: latest
+      secrets:
+        - id=GITHUB_TOKEN,env=GITHUB_TOKEN
+        - id=NPM_TOKEN_GITHUB,env=NPM_TOKEN_GITHUB
+        - id=NPM_TOKEN_NPMJS,env=NPM_TOKEN_NPMJS
 
   app:
     depends_on: [node]
@@ -16,3 +20,7 @@ services:
     build:
       context: .
       dockerfile: app.dockerfile
+      secrets:
+        - id=GITHUB_TOKEN,env=GITHUB_TOKEN
+        - id=NPM_TOKEN_GITHUB,env=NPM_TOKEN_GITHUB
+        - id=NPM_TOKEN_NPMJS,env=NPM_TOKEN_NPMJS
