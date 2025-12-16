@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.9.0 (2025-12-16)
+
+**New features:**
+
+- \[MINOR] feat: add docker build secrets (● [1d70545](https://github.com/zerocluster/node/commit/1d70545), [fbae10c](https://github.com/zerocluster/node/commit/fbae10c); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: remove NPM_TOKEN_GITHUB (● [9abf65a](https://github.com/zerocluster/node/commit/9abf65a); 👬 zdm)
+
+Compare with the previous release: [v1.8.1](https://github.com/zerocluster/node/compare/v1.8.1...v1.9.0)
+
 ### v1.8.1 (2025-12-12)
 
 **Bug fixes:**
