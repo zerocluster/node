@@ -9,7 +9,7 @@ services:
         NODE_VERSION: lts-latest
         NPM_VERSION: latest
       secrets:
-        - id=NPM_TOKEN_GITHUB,env=NPM_TOKEN_GITHUB
+        - id=GITHUB_TOKEN,env=GITHUB_TOKEN
 
   app:
     depends_on: [node]
@@ -19,4 +19,4 @@ services:
       context: .
       dockerfile: app.dockerfile
       secrets:
-        - id=NPM_TOKEN_GITHUB,env=NPM_TOKEN_GITHUB
+        - id=GITHUB_TOKEN,env=GITHUB_TOKEN
