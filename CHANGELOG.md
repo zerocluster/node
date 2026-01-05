@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.9.1 (2026-01-05)
+
+**Other changes:**
+
+- chore: remove npm @sencha:registry (● [6b375aa](https://github.com/zerocluster/node/commit/6b375aa); 👬 zdm)
+
+Compare with the previous release: [v1.9.0](https://github.com/zerocluster/node/compare/v1.9.0...v1.9.1)
+
 ### v1.9.0 (2025-12-16)
 
 **New features:**

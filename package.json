@@ -1,6 +1,6 @@
 {
     "name": "@zerocluster/node",
-    "version": "1.9.0",
+    "version": "1.9.1",
     "private": true,
     "description": "NodeJS docker image",
     "keywords": [
