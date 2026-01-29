@@ -1,6 +1,13 @@
 version: 2
+registries:
+  ghcr.io:
+    type: docker-registry
+    url: ghcr.io
+    username: ${{github.repository_owner}}
+    password: ${{secrets.DEPENDABOT_GITHUB_TOKEN}}
 updates:
   - package-ecosystem: docker
+    registries: "*"
     directories:
       - /
     schedule:
