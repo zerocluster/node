@@ -1,5 +1,11 @@
 # Changelog
 
+### v1.9.3 (2026-01-29)
+
+No changes since the previous release.
+
+Compare with the previous release: [v1.9.2](https://github.com/zerocluster/node/compare/v1.9.2...v1.9.3)
+
 ### v1.9.2 (2026-01-29)
 
 **Other changes:**
