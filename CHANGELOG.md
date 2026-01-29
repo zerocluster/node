@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.9.2 (2026-01-29)
+
+**Other changes:**
+
+- chore(metadata): update package metadata (● [6f4d2d7](https://github.com/zerocluster/node/commit/6f4d2d7); 👬 zdm)
+
+Compare with the previous release: [v1.9.1](https://github.com/zerocluster/node/compare/v1.9.1...v1.9.2)
+
 ### v1.9.1 (2026-01-05)
 
 **Other changes:**
