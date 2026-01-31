@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.9.5 (2026-01-31)
+
+**Other changes:**
+
+- chore: rename c0rejs namespace (● [01b72b9](https://github.com/zerocluster/node/commit/01b72b9); 👬 zdm)
+
+Compare with the previous release: [v1.9.4](https://github.com/zerocluster/node/compare/v1.9.4...v1.9.5)
+
 ### v1.9.4 (2026-01-29)
 
 **Other changes:**
