@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.9.6 (2026-02-05)
+
+**Other changes:**
+
+- chore: remove @zdm npm registry (● [d64128e](https://github.com/zerocluster/node/commit/d64128e); 👬 zdm)
+
+Compare with the previous release: [v1.9.5](https://github.com/zerocluster/node/compare/v1.9.5...v1.9.6)
+
 ### v1.9.5 (2026-01-31)
 
 **Other changes:**
