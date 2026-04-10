@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.0 (2026-04-10)
+
+**New features:**
+
+- \[MINOR] feat: use signals-manager (● [4125ead](https://github.com/zerocluster/node/commit/4125ead); 👬 zdm)
+
+Compare with the previous release: [v1.9.7](https://github.com/zerocluster/node/compare/v1.9.7...v1.10.0)
+
 ### v1.9.7 (2026-03-06)
 
 **Other changes:**
