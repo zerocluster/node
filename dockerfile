@@ -27,6 +27,9 @@ RUN \
     && script=$(curl -fsSL "https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh") \
     && source <(echo "$script") \
     \
+    && curl -fsSLo "/usr/bin/signals-manager" "https://raw.githubusercontent.com/softvisio/scripts/main/signals-manager.js" \
+    && chmod +x "/usr/bin/signals-manager" \
+    \
     # install node.js
     && fnm use --install-if-missing $NODE_VERSION \
     \

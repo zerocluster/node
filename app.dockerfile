@@ -1,7 +1,5 @@
 FROM ghcr.io/zerocluster/node
 
-ENV ENTRYPOINT="node bin/main.js"
-
 USER root
 WORKDIR /var/local
 SHELL [ "/usr/bin/env", "bash", "-l", "-c" ]
@@ -14,7 +12,7 @@ ONBUILD SHELL [ "/usr/bin/env", "bash", "-l", "-c" ]
 ONBUILD WORKDIR /var/local/package
 ONBUILD ADD . /var/local/package
 
-ONBUILD ENTRYPOINT [ "/usr/bin/env", "bash", "-l", "-c", "exec $ENTRYPOINT $@", "bash" ]
+ONBUILD ENTRYPOINT [ "/usr/bin/env", "bash", "-l", "-c", "exec signals-manager node bin/main.js $@", "bash" ]
 
 ONBUILD HEALTHCHECK \
     --interval=30s \
