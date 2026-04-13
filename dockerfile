@@ -16,10 +16,11 @@ ENTRYPOINT [ "/usr/bin/env", "bash", "-l" ]
 ONBUILD ARG BUILD_VERSION
 ONBUILD ENV BUILD_VERSION=$BUILD_VERSION
 
-ONBUILD USER root
 ONBUILD SHELL [ "/usr/bin/env", "bash", "-l", "-c" ]
-ONBUILD WORKDIR /var/local
 ONBUILD ENTRYPOINT [ "/usr/bin/env", "bash", "-l" ]
+
+ONBUILD USER root
+ONBUILD WORKDIR /var/local
 
 RUN \
     # setup host
