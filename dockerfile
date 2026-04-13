@@ -22,23 +22,30 @@ ONBUILD ENTRYPOINT [ "/usr/bin/env", "bash", "-l" ]
 ONBUILD USER root
 ONBUILD WORKDIR /var/local
 
-RUN \
-    # setup host
-    apt-get update && apt-get install -y curl \
-    && script=$(curl -fsSL "https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh") \
-    && source <(echo "$script") \
-    \
-    && curl -fsSLo "/usr/bin/signals-manager" "https://raw.githubusercontent.com/softvisio/scripts/main/signals-manager.js" \
-    && chmod +x "/usr/bin/signals-manager" \
-    \
-    # install node.js
-    && fnm use --install-if-missing $NODE_VERSION \
-    \
-    # update npm
-    && if [[ -n ${NPM_VERSION:-} ]]; then \
-       npm install --global npm@$NPM_VERSION; \
-    fi \
-    \
-    # cleanup
-    && script=$(curl -fsSL "https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh") \
-    && bash <(echo "$script") cleanup
+RUN <<EOF
+#!/usr/bin/env bash -l
+
+set -Eeuo pipefail
+trap 'echo -e "⚠  Error ($0:$LINENO): $(sed -n "${LINENO}p" "$0" 2> /dev/null | grep -oE "\S.*\S|\S" || true)" >&2; return 3 2> /dev/null || exit 3' ERR
+
+# setup host
+apt-get update && apt-get install -y curl
+script=$(curl -fsSL "https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh")
+source <(echo "$script")
+
+curl -fsSLo "/usr/bin/signals-manager" "https://raw.githubusercontent.com/softvisio/scripts/main/signals-manager.js"
+chmod +x "/usr/bin/signals-manager"
+
+# install node.js
+fnm use --install-if-missing $NODE_VERSION
+
+# update npm
+if [[ -n ${NPM_VERSION:-} ]]; then
+   npm install --global npm@$NPM_VERSION
+fi
+
+# cleanup
+script=$(curl -fsSL "https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh")
+bash <(echo "$script") cleanup
+
+EOF
