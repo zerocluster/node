@@ -26,7 +26,10 @@ RUN <<EOF
 #!/usr/bin/env bash
 
 # setup host
-apt-get update && apt-get install -y curl
+apt-get update
+apt-get install -y \
+    curl
+
 script=$(curl -fsSL "https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh")
 source <(echo "$script")
 
