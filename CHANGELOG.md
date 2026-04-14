@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.1 (2026-04-14)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update dockerfile (● [49bc4bc](https://github.com/zerocluster/node/commit/49bc4bc), [66bb591](https://github.com/zerocluster/node/commit/66bb591), [1174100](https://github.com/zerocluster/node/commit/1174100), [2cae8ef](https://github.com/zerocluster/node/commit/2cae8ef); 👬 zdm)
+
+Compare with the previous release: [v1.10.0](https://github.com/zerocluster/node/compare/v1.10.0...v1.10.1)
+
 ### v1.10.0 (2026-04-10)
 
 **New features:**
