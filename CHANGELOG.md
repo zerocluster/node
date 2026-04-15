@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.2 (2026-04-15)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix dockerfile errors handler (● [07199ac](https://github.com/zerocluster/node/commit/07199ac); 👬 zdm)
+
+Compare with the previous release: [v1.10.1](https://github.com/zerocluster/node/compare/v1.10.1...v1.10.2)
+
 ### v1.10.1 (2026-04-14)
 
 **Code refactoring:**
