@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.3 (2026-04-20)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update .editorconfig (● [58c1424](https://github.com/zerocluster/node/commit/58c1424); 👬 zdm)
+
+Compare with the previous release: [v1.10.2...v1.10.3](https://github.com/zerocluster/node/compare/v1.10.2...v1.10.3)
+
 ### v1.10.2 (2026-04-15)
 
 **Bug fixes:**
