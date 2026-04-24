@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.4 (2026-04-24)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update sh error trap (● [ee11abc](https://github.com/zerocluster/node/commit/ee11abc); 👬 zdm)
+
+Compare with the previous release: [v1.10.3...v1.10.4](https://github.com/zerocluster/node/compare/v1.10.3...v1.10.4)
+
 ### v1.10.3 (2026-04-20)
 
 **Code refactoring:**
