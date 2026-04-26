@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.5 (2026-04-26)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix sh error trap (● [b403205](https://github.com/zerocluster/node/commit/b403205); 👬 zdm)
+
+Compare with the previous release: [v1.10.4...v1.10.5](https://github.com/zerocluster/node/compare/v1.10.4...v1.10.5)
+
 ### v1.10.4 (2026-04-24)
 
 **Code refactoring:**
