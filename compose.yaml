@@ -5,7 +5,7 @@ services:
     build:
       context: .
       args:
-        UBUNTU_VERSION: latest
+        UBUNTU_VERSION: 26.04
         NODE_VERSION: lts-latest
         NPM_VERSION: latest
       secrets:
