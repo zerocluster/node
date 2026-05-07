@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.7 (2026-05-07)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename cli.config.yaml to scli.config.yaml (● [a0e95bd](https://github.com/zerocluster/node/commit/a0e95bd); 👬 zdm)
+
+Compare with the previous release: [v1.10.6...v1.10.7](https://github.com/zerocluster/node/compare/v1.10.6...v1.10.7)
+
 ### v1.10.6 (2026-04-29)
 
 **Bug fixes:**
