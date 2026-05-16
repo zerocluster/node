@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.8 (2026-05-16)
+
+**Other changes:**
+
+- docs: update readme (● [d49033f](https://github.com/zerocluster/node/commit/d49033f); 👬 zdm)
+
+Compare with the previous release: [v1.10.7...v1.10.8](https://github.com/zerocluster/node/compare/v1.10.7...v1.10.8)
+
 ### v1.10.7 (2026-05-07)
 
 **Code refactoring:**
