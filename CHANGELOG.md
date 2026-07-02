@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.11 (2026-07-02)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix md \_ escape (● [8ded470](https://github.com/zerocluster/node/commit/8ded470); 👬 zdm)
+
+Compare with the previous release: [v1.10.10...v1.10.11](https://github.com/zerocluster/node/compare/v1.10.10...v1.10.11)
+
 ### v1.10.10 (2026-05-28)
 
 **Other changes:**
