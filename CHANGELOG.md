@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.12 (2026-07-09)
+
+**Bug fixes:**
+
+- \[PATCH] fix: pin npm\@11 (● [493f4b0](https://github.com/zerocluster/node/commit/493f4b0); 👬 zdm)
+
+Compare with the previous release: [v1.10.11...v1.10.12](https://github.com/zerocluster/node/compare/v1.10.11...v1.10.12)
+
 ### v1.10.11 (2026-07-02)
 
 **Bug fixes:**
