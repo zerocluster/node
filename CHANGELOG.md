@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.13 (2026-07-09)
+
+**Bug fixes:**
+
+- \[PATCH] fix: unpin npm\@11 (● [3a26b0d](https://github.com/zerocluster/node/commit/3a26b0d); 👬 zdm)
+
+Compare with the previous release: [v1.10.12...v1.10.13](https://github.com/zerocluster/node/compare/v1.10.12...v1.10.13)
+
 ### v1.10.12 (2026-07-09)
 
 **Bug fixes:**
