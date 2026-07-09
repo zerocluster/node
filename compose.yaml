@@ -7,7 +7,7 @@ services:
       args:
         UBUNTU_VERSION: 26.04
         NODE_VERSION: lts-latest
-        NPM_VERSION: latest
+        NPM_VERSION: "^11.18.0" # latest
       secrets:
         - id=GITHUB_TOKEN,env=GITHUB_TOKEN
 
