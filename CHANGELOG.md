@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.15 (2026-08-04)
+
+**Other changes:**
+
+- chore: rename ccli to zcli (● [d2737d7](https://github.com/zerocluster/node/commit/d2737d7), [d95bb1e](https://github.com/zerocluster/node/commit/d95bb1e), [e7567b0](https://github.com/zerocluster/node/commit/e7567b0); 👬 zdm)
+
+Compare with the previous release: [v1.10.14...v1.10.15](https://github.com/zerocluster/node/compare/v1.10.14...v1.10.15)
+
 ### v1.10.14 (2026-08-01)
 
 **Other changes:**
