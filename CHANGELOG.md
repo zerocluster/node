@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.16 (2026-08-28)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix shebang (● [c31211d](https://github.com/zerocluster/node/commit/c31211d); 👬 zdm)
+
+Compare with the previous release: [v1.10.15...v1.10.16](https://github.com/zerocluster/node/compare/v1.10.15...v1.10.16)
+
 ### v1.10.15 (2026-08-04)
 
 **Other changes:**
