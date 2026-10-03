@@ -198,7 +198,7 @@ Compare with the previous release: [v1.9.0](https://github.com/zerocluster/node/
 
 **Bug fixes:**
 
-- \[PATCH] fix: remove NPM\_TOKEN\_GITHUB (● [9abf65a](https://github.com/zerocluster/node/commit/9abf65a); 👬 zdm)
+- \[PATCH] fix: remove NPM_TOKEN_GITHUB (● [9abf65a](https://github.com/zerocluster/node/commit/9abf65a); 👬 zdm)
 
 Compare with the previous release: [v1.8.1](https://github.com/zerocluster/node/compare/v1.8.1...v1.9.0)
 
@@ -356,7 +356,7 @@ Compare with the previous release: [v1.4.0](https://github.com/zerocluster/node/
 
 **Features:**
 
-- \[MINOR] feat: rename GIT\_ID to BUILD\_VERSION (👬 zdm)
+- \[MINOR] feat: rename GIT_ID to BUILD_VERSION (👬 zdm)
 
 **Other changes:**
 
@@ -845,7 +845,7 @@ Fixes:
 
 Fixes:
 
-- fix: GIT\_UDID dockerfile
+- fix: GIT_UDID dockerfile
 
 ### 1.3.32 (2022-08-18)
 
@@ -911,7 +911,7 @@ Fixes:
 
 Fixes:
 
-- fix: DEBIAN\_FRONTEND=noninteractive
+- fix: DEBIAN_FRONTEND=noninteractive
 
 ### 1.3.21 (2022-04-01)
 
@@ -1087,7 +1087,7 @@ Fixes:
 
 Fixes:
 
-- fix: docker autobuild\_tags renamed to auto\_tags
+- fix: docker autobuild_tags renamed to auto_tags
 
 ### 0.1.6 (2021-09-07)
 
