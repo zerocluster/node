@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.17 (2026-10-03)
+
+**Other changes:**
+
+- docs: correct escaped snake_case in md (● [21409de](https://github.com/zerocluster/node/commit/21409de); 👬 zdm)
+
+Compare with the previous release: [v1.10.16...v1.10.17](https://github.com/zerocluster/node/compare/v1.10.16...v1.10.17)
+
 ### v1.10.16 (2026-08-28)
 
 **Bug fixes:**
