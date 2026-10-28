@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.18 (2026-10-28)
+
+**Other changes:**
+
+- build(deps): install libatomic1 in Docker image (● [564d234](https://github.com/zerocluster/node/commit/564d234); 👬 zdm)
+
+Compare with the previous release: [v1.10.17...v1.10.18](https://github.com/zerocluster/node/compare/v1.10.17...v1.10.18)
+
 ### v1.10.17 (2026-10-03)
 
 **Other changes:**
