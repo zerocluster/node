@@ -31,7 +31,8 @@ trap 'echo "⚠  Error ($0:$LINENO, exit code: $?): $BASH_COMMAND" >&2' ERR
 # setup host
 apt-get update
 apt-get install -y \
-    curl
+    curl \
+    libatomic1
 
 script=$(curl -fsSL "https://raw.githubusercontent.com/softvisio/scripts/main/setup-host.sh")
 source <(echo "$script")
