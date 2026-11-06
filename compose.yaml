@@ -12,7 +12,6 @@ services:
         - id=GITHUB_TOKEN,env=GITHUB_TOKEN
 
   app:
-    depends_on: [node]
     image: ghcr.io/zerocluster/node/app
 
     build:
