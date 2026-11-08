@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.10.19 (2026-11-08)
+
+**Bug fixes:**
+
+- \[PATCH] fix: remove depends_on from compose file (● [4a5cced](https://github.com/zerocluster/node/commit/4a5cced); 👬 zdm)
+
+**Other changes:**
+
+- chore: mode docker service depends_on to build (● [0096ea4](https://github.com/zerocluster/node/commit/0096ea4); 👬 zdm)
+
+Compare with the previous release: [v1.10.18...v1.10.19](https://github.com/zerocluster/node/compare/v1.10.18...v1.10.19)
+
 ### v1.10.18 (2026-10-28)
 
 **Other changes:**
